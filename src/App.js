@@ -107,7 +107,7 @@ function App() {
                 <li className='me-5'><button onClick={() => demo('city')}>City</button></li>
                 <li className='me-5'><button onClick={() => demo('bird')}>Bird</button></li>
                 <li className='me-5'><button onClick={() => demo('car')}>Car</button></li>
-                <li>
+                <li className='d-none d-md-block'>
                    <input type="text"placeholder='search..' onChange={(i) => search(i.target.value)} />
 
                 </li>
