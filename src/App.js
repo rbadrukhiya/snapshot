@@ -103,10 +103,10 @@ function App() {
           <div className="row justify-content-center">
             <div className="col-auto">
               <ul className='list-unstyled d-flex'>
-                <li className='me-5'><button onClick={() => demo('mountain')}>Mountain</button></li>
-                <li className='me-5'><button onClick={() => demo('city')}>City</button></li>
-                <li className='me-5'><button onClick={() => demo('bird')}>Bird</button></li>
-                <li className='me-5'><button onClick={() => demo('car')}>Car</button></li>
+                <li className='me-4'><button onClick={() => demo('mountain')}>Mountain</button></li>
+                <li className='me-4'><button onClick={() => demo('city')}>City</button></li>
+                <li className='me-4'><button onClick={() => demo('bird')}>Bird</button></li>
+                <li className='me-4'><button onClick={() => demo('car')}>Car</button></li>
                 <li className='d-none d-md-block'>
                    <input type="text"placeholder='search..' onChange={(i) => search(i.target.value)} />
 
